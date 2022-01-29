@@ -1,8 +1,8 @@
 aimAngle = point_direction(x, y, mouse_x, mouse_y)
-gunOffsetX = 3
-gunOffsetY = -20
-swordOffsetX = -3
-swordOffsetY = -20
+gunOffsetX = 4
+gunOffsetY = -17
+swordOffsetX = -4
+swordOffsetY = -17
 
 gunX = oPlayer.x + gunOffsetX
 gunY = oPlayer.y + gunOffsetY

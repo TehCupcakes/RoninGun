@@ -18,6 +18,7 @@ while (abs(xMove) > 0 || abs(yMove) > 0) {
 		}
 
 		scrDamageEnemy(enemy, 1, moveDir, moveSpeed)
+		audio_play_sound(sfxRobotBulletHit, 2, false)
 		
 		// Unless it has piercing?
 		if (piercing > 0) {

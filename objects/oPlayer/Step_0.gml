@@ -22,7 +22,7 @@ if (!dead) {
 		var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 		hsp = baseVelocity * hDir
 
-		x += hsp
+		x = clamp(x + hsp, 8, room_width - 8)
 
 		if (ground && sprite_index != sPlayerRun) {
 			sprite_index = sPlayerRun

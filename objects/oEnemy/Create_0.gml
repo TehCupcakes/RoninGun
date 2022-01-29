@@ -6,8 +6,8 @@ ground = false
 hp = 1
 dead = false
 
-maxMoveSpeed = 14
-moveRate = 1
+maxMoveSpeed = 12
+moveRate = 0.2
 
 // For animating disappear after dying
 blink = false

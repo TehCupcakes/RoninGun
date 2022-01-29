@@ -1,3 +1,4 @@
+image_alpha = blink ? 0.5 : 1
 image_xscale = sign(mouse_x - x)
 if (image_xscale = 0) {
 	image_xscale = 1

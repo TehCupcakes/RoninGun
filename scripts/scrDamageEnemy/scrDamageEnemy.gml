@@ -9,7 +9,7 @@ function scrDamageEnemy(enemy, amount, angle, velocity) {
 		if (hp <= 0) {
 			dead = true
 			sprite_index = sEnemyDead
-			image_xscale = (angle >= 90 && angle < 270) ? -1 : 1
+			image_xscale = (angle >= 90 && angle < 270) ? 1 : -1
 			
 			var force = max(abs(velocity), 4)
 			hsp = lengthdir_x(force, angle)
