@@ -1,4 +1,6 @@
-spawnRate = 1;
+spawnRate = 1
+stepsSinceSpawn = 0
+minChance = 0
 maxHealth = 10
 
 global.playerHealth = maxHealth

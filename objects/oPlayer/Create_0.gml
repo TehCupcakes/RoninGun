@@ -8,7 +8,7 @@ invincible = false
 
 instance_create_depth(x, y, depth-1, oArms)
 
-animation_speed = 0.75
+animation_speed = 0.5
 image_speed = animation_speed
 
 // For animating blinking after taking damage

@@ -19,11 +19,6 @@ if (!dead) {
 			jumping = false
 		}
 	} else {
-		var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
-		hsp = baseVelocity * hDir
-
-		x = clamp(x + hsp, 8, room_width - 8)
-
 		if (ground && sprite_index != sPlayerRun) {
 			sprite_index = sPlayerRun
 			image_index = 0
@@ -34,4 +29,9 @@ if (!dead) {
 			vsp = 0
 		}
 	}
+	
+	var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+	hsp = baseVelocity * hDir
+
+	x = clamp(x + hsp, 8, room_width - 8)
 }

@@ -22,4 +22,8 @@ if (!jumping) {
 	if (hsp == 0 && sprite_index == sPlayerRun) {
 		sprite_index = sPlayerStill
 	}
+	
+	if (sprite_index == sPlayerRun) {
+		image_speed = animation_speed * (sign(hsp) == sign(image_xscale) ? 1 : -1)
+	}
 }
