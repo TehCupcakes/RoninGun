@@ -1,9 +1,13 @@
-var velocity = baseVelocity
-var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+event_inherited()
 
-x += velocity * hDir
-
-image_xscale = sign(mouse_x - x)
-if (image_xscale = 0) {
-	image_xscale = 1
+// Jump pressed
+if (keyboard_check_pressed(vk_space)) {
+	if (ground) {
+		vsp = -jumpSpeed
+	}
 }
+
+var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+hsp = baseVelocity * hDir
+
+x += hsp

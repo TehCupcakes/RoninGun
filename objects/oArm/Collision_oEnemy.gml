@@ -1,1 +1,1 @@
-instance_destroy(other)
+scrDamageEnemy(other, 1, image_angle, abs(oPlayer.hsp))
