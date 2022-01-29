@@ -8,3 +8,5 @@ gunX = oPlayer.x + gunOffsetX
 gunY = oPlayer.y + gunOffsetY
 swordX = oPlayer.x + swordOffsetX
 swordY = oPlayer.y + swordOffsetY
+
+lastWeapon = Weapon.GUN
