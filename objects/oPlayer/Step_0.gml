@@ -4,8 +4,6 @@ event_inherited()
 if (keyboard_check_pressed(vk_space)) {
 	if (ground) {
 		vsp = -jumpSpeed
-	} else {
-		
 	}
 }
 

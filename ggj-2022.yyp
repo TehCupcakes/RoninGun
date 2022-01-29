@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":5,},
-    {"id":{"name":"sGunSword","path":"sprites/sGunSword/sGunSword.yy",},"order":1,},
+    {"id":{"name":"sSwordArm","path":"sprites/sSwordArm/sSwordArm.yy",},"order":9,},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":3,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":7,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
@@ -16,9 +16,10 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":7,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":1,},
+    {"id":{"name":"sGunArm","path":"sprites/sGunArm/sGunArm.yy",},"order":8,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
-    {"id":{"name":"oArm","path":"objects/oArm/oArm.yy",},"order":4,},
+    {"id":{"name":"oArms","path":"objects/oArms/oArms.yy",},"order":4,},
     {"id":{"name":"scrSpawnEnemy","path":"scripts/scrSpawnEnemy/scrSpawnEnemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

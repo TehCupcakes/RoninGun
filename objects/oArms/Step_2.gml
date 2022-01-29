@@ -1,6 +1,9 @@
-x = oPlayer.x
-y = oPlayer.y - 32
-aimAngle = point_direction(x, y, mouse_x, mouse_y)
+gunX = oPlayer.x
+gunY = oPlayer.y + gunOffsetY
+swordX = oPlayer.x
+swordY = oPlayer.y + swordOffsetY
+
+aimAngle = point_direction(gunX, gunY, mouse_x, mouse_y)
 
 image_angle = aimAngle
 if (image_angle >= 90 && image_angle < 270) {

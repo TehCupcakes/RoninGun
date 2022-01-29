@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sGunSword",
-    "path": "sprites/sGunSword/sGunSword.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oArm",
+  "name": "oArms",
   "tags": [],
   "resourceType": "GMObject",
 }
