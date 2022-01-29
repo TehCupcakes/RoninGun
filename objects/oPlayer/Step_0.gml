@@ -11,7 +11,7 @@ if (!dead) {
 		}
 	}
 	if (jumping) {
-		if (image_index >= 4 && vsp >= 0) {
+		if (vsp >= 0) {
 			vsp = -jumpSpeed
 		} else if (image_index >= 5 || !ground) {
 			image_index = 5
