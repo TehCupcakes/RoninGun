@@ -11,3 +11,5 @@ if (audio_is_playing(sfxPistol)) {
 audio_play_sound_at(sfxPistol, bulletX, bulletY, depth, 0, 0, 1, false, 1)
 
 lastWeapon = Weapon.GUN
+gunSubimage = 0
+alarm[0] = 2

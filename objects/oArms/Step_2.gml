@@ -3,6 +3,26 @@ gunY = oPlayer.y + gunOffsetY
 swordX = oPlayer.x
 swordY = oPlayer.y + swordOffsetY
 
+if (oPlayer.sprite_index == sPlayerJump) {
+	switch (floor(oPlayer.image_index)) {
+		case 1:
+			gunY += 2
+			swordY += 2
+			break
+		case 2:
+			gunY += 3
+			swordY += 3
+			break
+		case 4:
+			gunY -= 4
+			swordY -= 4
+			break
+		case 5:
+			gunY -= 7
+			swordY -= 7
+	}
+}
+
 aimAngle = point_direction(gunX, gunY, mouse_x, mouse_y)
 
 image_angle = aimAngle
