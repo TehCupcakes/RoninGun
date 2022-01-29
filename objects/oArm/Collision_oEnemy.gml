@@ -1,1 +1,1 @@
-scrDamageEnemy(other, 1, image_angle, abs(oPlayer.hsp))
+scrDamageEnemy(other, 1, aimAngle, abs(oPlayer.hsp))

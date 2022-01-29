@@ -1,7 +1,8 @@
 x = oPlayer.x
 y = oPlayer.y - 32
-image_angle = point_direction(x, y, mouse_x, mouse_y)
+aimAngle = point_direction(x, y, mouse_x, mouse_y)
 
+image_angle = aimAngle
 if (image_angle >= 90 && image_angle < 270) {
 	image_xscale = -1
 	image_angle -= 180
