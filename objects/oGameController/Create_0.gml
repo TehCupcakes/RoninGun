@@ -5,8 +5,9 @@ maxHealth = 10
 
 global.playerHealth = maxHealth
 global.maxHealth = maxHealth
-global.muteAudio = true
 global.score = 0
 global.combo = 0
 
 drawHealthScale = 4
+
+window_set_cursor(cr_none)
