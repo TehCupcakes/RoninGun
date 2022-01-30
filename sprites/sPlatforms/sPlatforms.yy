@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "tilesets",
-    "path": "folders/Sprites/tilesets.yy",
+    "path": "folders/Sprites/Environment/tilesets.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlatforms",
