@@ -24,3 +24,7 @@ sword_attack_duration = 40
 cant_use_sword = false
 hurt = false
 hurtDuration = 15
+
+footstepInterval = 12
+alarm[4] = footstepInterval
+

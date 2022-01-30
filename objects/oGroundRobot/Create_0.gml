@@ -9,4 +9,6 @@ dead = false
 maxMoveSpeed = 9
 moveRate = 0.2
 
+warnedPlayer = false
+
 image_speed = 0.5

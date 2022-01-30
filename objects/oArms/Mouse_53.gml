@@ -4,7 +4,13 @@ if (!oPlayer.cant_use_sword) {
 	if (audio_is_playing(sfxSword)) {
 		audio_stop_sound(sfxSword)
 	}
-	audio_play_sound_at(sfxSword, swordX, swordY, depth, 0, 0, 1, false, 1)
+	
+	if (audio_is_playing(sfxPlayerDash)) {
+		audio_stop_sound(sfxPlayerDash)
+	}
+	
+	audio_play_sound(sfxSword, 10, false)
+	audio_play_sound(sfxPlayerDash, 10, false)
 
 	lastWeapon = Weapon.SWORD
 	swordSubimage = 0

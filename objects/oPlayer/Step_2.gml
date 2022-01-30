@@ -14,6 +14,8 @@ if (!jumping) {
 		sprite_index = sPlayerLand
 		image_index = 0
 		image_speed = animation_speed
+		
+		audio_play_sound(sfxPlayerLandingOnGround, 10, false)
 	}
 	if (ground && hurt) {
 		sprite_index = sPlayerHurt
