@@ -2,7 +2,7 @@ event_inherited()
 
 baseVelocity = 10
 hsp = 0
-jumpSpeed = 22
+jumpSpeed = 18
 jumping = false
 invincible = false
 
