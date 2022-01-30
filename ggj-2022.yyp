@@ -8,6 +8,7 @@
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"order":6,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":7,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
+    {"id":{"name":"oCeiling","path":"objects/oCeiling/oCeiling.yy",},"order":13,},
     {"id":{"name":"scrDamagePlayer","path":"scripts/scrDamagePlayer/scrDamagePlayer.yy",},"order":5,},
     {"id":{"name":"sBGFIller","path":"sprites/sBGFIller/sBGFIller.yy",},"order":7,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},

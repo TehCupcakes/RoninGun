@@ -1,6 +1,6 @@
 event_inherited()
 
-baseVelocity = 8
+baseVelocity = 7
 maxMoveSpeed = 11 // Might be increased with a dash move or something?
 dashSpeed = 11
 hsp = 0
