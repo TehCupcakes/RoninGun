@@ -6,7 +6,7 @@ ground = false
 hp = 1
 dead = false
 
-maxMoveSpeed = 10
+maxMoveSpeed = 9
 moveRate = 0.2
 
 image_speed = 0.5

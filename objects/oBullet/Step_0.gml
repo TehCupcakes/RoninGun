@@ -40,7 +40,7 @@ while (abs(xMove) > 0 || abs(yMove) > 0) {
 	ds_list_destroy(collisionList)
 	
 	var floorHit = instance_place(x, y, oFloor)
-	if (floorHit != noone) {
+	if (floorHit != noone && floorHit.shootable) {
 		// Adjust final position so the explosion appears at the right spot
 		x = clamp(x, floorHit.x, floorHit.x + floorHit.image_xscale * 24)
 		y = clamp(y, floorHit.y, floorHit.y+10)
