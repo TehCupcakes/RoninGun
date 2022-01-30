@@ -1,6 +1,7 @@
 event_inherited()
 
 baseVelocity = 10
+maxMoveSpeed = 10 // Might be increased with a dash move or something?
 hsp = 0
 jumpSpeed = 18
 jumping = false

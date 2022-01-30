@@ -39,6 +39,7 @@
     {"id":{"name":"tilesetPlatforms","path":"tilesets/tilesetPlatforms/tilesetPlatforms.yy",},"order":0,},
     {"id":{"name":"sFGBuilding1","path":"sprites/sFGBuilding1/sFGBuilding1.yy",},"order":0,},
     {"id":{"name":"sSwordArm","path":"sprites/sSwordArm/sSwordArm.yy",},"order":6,},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":10,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":1,},
     {"id":{"name":"oSwordHitbox","path":"objects/oSwordHitbox/oSwordHitbox.yy",},"order":8,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":0,},
