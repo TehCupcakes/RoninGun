@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oMenuControl","path":"objects/oMenuControl/oMenuControl.yy",},"order":14,},
+    {"id":{"name":"oBarrelExplosion","path":"objects/oBarrelExplosion/oBarrelExplosion.yy",},"order":16,},
     {"id":{"name":"sFloatingRobot","path":"sprites/sFloatingRobot/sFloatingRobot.yy",},"order":3,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":1,},
     {"id":{"name":"sPlatforms","path":"sprites/sPlatforms/sPlatforms.yy",},"order":0,},
@@ -24,6 +25,7 @@
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"sfxRobotWarn","path":"sounds/sfxRobotWarn/sfxRobotWarn.yy",},"order":11,},
     {"id":{"name":"sSlope","path":"sprites/sSlope/sSlope.yy",},"order":5,},
+    {"id":{"name":"oBarrel","path":"objects/oBarrel/oBarrel.yy",},"order":15,},
     {"id":{"name":"sReticle","path":"sprites/sReticle/sReticle.yy",},"order":6,},
     {"id":{"name":"oBulletExplosion","path":"objects/oBulletExplosion/oBulletExplosion.yy",},"order":10,},
     {"id":{"name":"sfxRobotBulletHit","path":"sounds/sfxRobotBulletHit/sfxRobotBulletHit.yy",},"order":2,},
@@ -43,7 +45,12 @@
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":1,},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},"order":9,},
     {"id":{"name":"sfxPistol","path":"sounds/sfxPistol/sfxPistol.yy",},"order":0,},
+<<<<<<< HEAD
     {"id":{"name":"sfxInGameMusic","path":"sounds/sfxInGameMusic/sfxInGameMusic.yy",},"order":5,},
+=======
+    {"id":{"name":"sMenuBG","path":"sprites/sMenuBG/sMenuBG.yy",},"order":35,},
+    {"id":{"name":"sExplosionMask","path":"sprites/sExplosionMask/sExplosionMask.yy",},"order":34,},
+>>>>>>> b8c6468ca963c99857dd324d69fe1be970719410
     {"id":{"name":"oFloatingRobot","path":"objects/oFloatingRobot/oFloatingRobot.yy",},"order":10,},
     {"id":{"name":"scrFloorBelow","path":"scripts/scrFloorBelow/scrFloorBelow.yy",},"order":4,},
     {"id":{"name":"sEnemyStill","path":"sprites/sEnemyStill/sEnemyStill.yy",},"order":2,},

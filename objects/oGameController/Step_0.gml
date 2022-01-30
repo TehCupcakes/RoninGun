@@ -16,3 +16,8 @@ if (random_range(minChance, 1) >= 1) {
 if (irandom(299) == 1) {
 	spawnRate = clamp(spawnRate + random_range(-0.1, 0.3), 1, 5)
 }
+
+// Random chance to drop a barrel
+if (irandom(399) == 1) {
+	instance_create_layer(global.view_xview + irandom(global.view_hview), global.view_yview - 10, "Instances", oBarrel)
+}
