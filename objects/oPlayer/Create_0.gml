@@ -1,7 +1,8 @@
 event_inherited()
 
-baseVelocity = 10
-maxMoveSpeed = 10 // Might be increased with a dash move or something?
+baseVelocity = 8
+maxMoveSpeed = 12 // Might be increased with a dash move or something?
+dashSpeed = 12
 hsp = 0
 jumpSpeed = 18
 jumping = false
@@ -18,3 +19,6 @@ blink = false
 blinkCount = 0
 blinkDuration = 8
 maxBlinks = 16
+dash_duration = 15
+sword_attack_duration = 40
+cant_use_sword = false

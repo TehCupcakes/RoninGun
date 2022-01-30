@@ -5,3 +5,4 @@ maxHealth = 10
 
 global.playerHealth = maxHealth
 global.maxHealth = maxHealth
+global.muteAudio = true

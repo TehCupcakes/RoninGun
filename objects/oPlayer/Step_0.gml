@@ -29,7 +29,7 @@ if (!dead) {
 		hsp = baseVelocity * hDir
 	}
 	else {
-		hsp = baseVelocity * image_xscale
+		hsp = dashSpeed * dash_direction
 		vGravity = 0
 		vsp = 0
 	}

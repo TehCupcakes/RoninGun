@@ -16,8 +16,9 @@ while (abs(xMove) > 0 || abs(yMove) > 0) {
 		if (enemy.dead) {
 			continue
 		}
-
+		
 		scrDamageEnemy(enemy, 1, moveDir, moveSpeed)
+		
 		if (audio_is_playing(sfxRobotBulletHit)) {
 			audio_stop_sound(sfxRobotBulletHit)
 		}
