@@ -40,6 +40,7 @@
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":1,},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},"order":9,},
     {"id":{"name":"sfxPistol","path":"sounds/sfxPistol/sfxPistol.yy",},"order":0,},
+    {"id":{"name":"sMenuBG","path":"sprites/sMenuBG/sMenuBG.yy",},"order":35,},
     {"id":{"name":"sExplosionMask","path":"sprites/sExplosionMask/sExplosionMask.yy",},"order":34,},
     {"id":{"name":"oFloatingRobot","path":"objects/oFloatingRobot/oFloatingRobot.yy",},"order":10,},
     {"id":{"name":"scrFloorBelow","path":"scripts/scrFloorBelow/scrFloorBelow.yy",},"order":4,},
