@@ -12,7 +12,9 @@ function scrDamagePlayer(amount, enemy) {
 			invincible = true
 			blinkCount = 0
 			blink = true
+			hurt = true
 			alarm[0] = blinkDuration
+			alarm[3] = hurtDuration
 		}
 	} else {
 		// Game over!

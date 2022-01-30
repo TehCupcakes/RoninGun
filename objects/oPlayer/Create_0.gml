@@ -22,3 +22,5 @@ maxBlinks = 16
 dash_duration = 10
 sword_attack_duration = 40
 cant_use_sword = false
+hurt = false
+hurtDuration = 15

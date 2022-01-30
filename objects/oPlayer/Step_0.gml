@@ -1,6 +1,6 @@
 event_inherited()
 
-if (!dead) {
+if (!dead && !hurt) {
 	// Jump pressed
 	if (keyboard_check_pressed(vk_space)) {
 		if (ground && !jumping) {

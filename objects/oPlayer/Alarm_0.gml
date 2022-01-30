@@ -1,3 +1,4 @@
+/// @description Toggle blinking animation
 blink = !blink
 
 if (blinkCount == maxBlinks) {

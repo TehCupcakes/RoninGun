@@ -15,6 +15,9 @@ if (!jumping) {
 		image_index = 0
 		image_speed = animation_speed
 	}
+	if (ground && hurt) {
+		sprite_index = sPlayerHurt
+	}
 	if (hsp != 0 && sprite_index == sPlayerStill) {
 		sprite_index = sPlayerRun
 		image_index = 0
