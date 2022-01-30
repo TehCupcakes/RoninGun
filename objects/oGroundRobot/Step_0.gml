@@ -1,6 +1,8 @@
 event_inherited()
 
 if (dead) {
+	sprite_index = sEnemyDead
+
 	if (ground) {
 		hsp = max(0, abs(hsp) - 0.4) * sign(hsp)
 	}
