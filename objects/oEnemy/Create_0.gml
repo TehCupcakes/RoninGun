@@ -13,3 +13,5 @@ moveRate = 0.2
 blink = false
 blinkDelay = 40
 blinkDuration = 20
+
+image_speed = 0.5
