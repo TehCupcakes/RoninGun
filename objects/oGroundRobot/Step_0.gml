@@ -1,7 +1,10 @@
 event_inherited()
 
 if (dead) {
-	sprite_index = sEnemyDead
+	if (sprite_index != sEnemyDead) {
+		sprite_index = sEnemyDead
+		image_index = 0
+	}
 
 	if (ground) {
 		hsp = max(0, abs(hsp) - 0.4) * sign(hsp)
@@ -13,10 +16,10 @@ if (dead) {
 }
 else {
 	if (ground) {
-		if (collision_line(x, y, oPlayer.x, oPlayer.y, oFloor, false, true)) {
-			hsp += moveRate * sign(image_xscale)
-		} else {
+		if (y > oPlayer.y || !collision_line(x, y, oPlayer.x, oPlayer.y, oFloor, false, true)) {
 			hsp += sign(oPlayer.x - x) * moveRate
+		} else {
+			hsp += moveRate * sign(image_xscale)
 		}
 	}
 	
