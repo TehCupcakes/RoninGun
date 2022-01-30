@@ -13,7 +13,11 @@ if (dead) {
 }
 else {
 	if (ground) {
-		hsp += sign(oPlayer.x - x) * moveRate
+		if (collision_line(x, y, oPlayer.x, oPlayer.y, oFloor, false, true)) {
+			hsp += moveRate * sign(image_xscale)
+		} else {
+			hsp += sign(oPlayer.x - x) * moveRate
+		}
 	}
 	
 	if (ground && irandom(1000) == 1000) {

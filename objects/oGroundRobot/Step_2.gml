@@ -1,5 +1,5 @@
 if (!dead) {
-	image_xscale = hsp == 0 ? 1 : sign(hsp)
+	image_xscale = hsp == 0 ? image_xscale : sign(hsp)
 	if (hsp == 0) {
 		sprite_index = sEnemyStill
 	} else if (sprite_index != sEnemyRun) {

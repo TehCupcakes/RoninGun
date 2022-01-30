@@ -8,8 +8,10 @@ if (dead) {
 	var moveX = lengthdir_x(maxMoveSpeed, dir)
 	var moveY = lengthdir_y(maxMoveSpeed, dir)
 
-	x += min(abs(moveX), abs(targetX - x)) * sign(moveX)
-	y += min(abs(moveY), abs(targetY - y)) * sign(moveY)
+	if (!place_meeting(x + moveX, y + moveY, oFloatingRobot)) {
+		x += min(abs(moveX), abs(targetX - x)) * sign(moveX)
+		y += min(abs(moveY), abs(targetY - y)) * sign(moveY)
+	}
 
 	// Wait until they are close to the player before dropping a bullet, and only if there isn't a platform in the way
 	if (bulletReady && distance_to_point(oPlayer.x, oPlayer.y) <= range && !collision_line(x, y, oPlayer.x, oPlayer.y, oFloor, false, true)) {
