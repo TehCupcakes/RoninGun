@@ -47,6 +47,7 @@
     {"id":{"name":"oSwordHitbox","path":"objects/oSwordHitbox/oSwordHitbox.yy",},"order":8,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":0,},
     {"id":{"name":"oArms","path":"objects/oArms/oArms.yy",},"order":4,},
+    {"id":{"name":"oParallaxControl","path":"objects/oParallaxControl/oParallaxControl.yy",},"order":11,},
     {"id":{"name":"scrSpawnEnemy","path":"scripts/scrSpawnEnemy/scrSpawnEnemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
