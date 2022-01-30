@@ -5,6 +5,7 @@
     {"id":{"name":"sFloatingRobot","path":"sprites/sFloatingRobot/sFloatingRobot.yy",},"order":3,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":1,},
     {"id":{"name":"sPlatforms","path":"sprites/sPlatforms/sPlatforms.yy",},"order":0,},
+    {"id":{"name":"sfxMainMenuMusic","path":"sounds/sfxMainMenuMusic/sfxMainMenuMusic.yy",},"order":13,},
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":11,},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":5,},
     {"id":{"name":"bullet_Sheet","path":"sprites/bullet_Sheet/bullet_Sheet.yy",},"order":8,},
@@ -38,6 +39,7 @@
     {"id":{"name":"sfxPlayerLandingOnGround","path":"sounds/sfxPlayerLandingOnGround/sfxPlayerLandingOnGround.yy",},"order":6,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":2,},
     {"id":{"name":"sGunArm","path":"sprites/sGunArm/sGunArm.yy",},"order":1,},
+    {"id":{"name":"sfxInGameMusic","path":"sounds/sfxInGameMusic/sfxInGameMusic.yy",},"order":12,},
     {"id":{"name":"ground_background","path":"sprites/ground_background/ground_background.yy",},"order":4,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
     {"id":{"name":"oGroundRobot","path":"objects/oGroundRobot/oGroundRobot.yy",},"order":2,},
@@ -45,12 +47,8 @@
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":1,},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},"order":9,},
     {"id":{"name":"sfxPistol","path":"sounds/sfxPistol/sfxPistol.yy",},"order":0,},
-<<<<<<< HEAD
-    {"id":{"name":"sfxInGameMusic","path":"sounds/sfxInGameMusic/sfxInGameMusic.yy",},"order":5,},
-=======
     {"id":{"name":"sMenuBG","path":"sprites/sMenuBG/sMenuBG.yy",},"order":35,},
     {"id":{"name":"sExplosionMask","path":"sprites/sExplosionMask/sExplosionMask.yy",},"order":34,},
->>>>>>> b8c6468ca963c99857dd324d69fe1be970719410
     {"id":{"name":"oFloatingRobot","path":"objects/oFloatingRobot/oFloatingRobot.yy",},"order":10,},
     {"id":{"name":"scrFloorBelow","path":"scripts/scrFloorBelow/scrFloorBelow.yy",},"order":4,},
     {"id":{"name":"sEnemyStill","path":"sprites/sEnemyStill/sEnemyStill.yy",},"order":2,},
