@@ -5,7 +5,7 @@ enum SpawnLocation {
 }
 
 function scrSpawnEnemy() {
-	var floorY = 2144
+	var floorY = 2150
 	var locations = [
 		SpawnLocation.LEFT_SIDE,
 		SpawnLocation.RIGHT_SIDE,
