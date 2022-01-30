@@ -1,9 +1,9 @@
 {
-  "option_windows_display_name": "GGJ 2022",
+  "option_windows_display_name": "Ronin Gun",
   "option_windows_executable_name": "${project_name}.exe",
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "Tiny Warrior Games and Friends",
-  "option_windows_product_info": "GGJ 2022",
+  "option_windows_product_info": "Ronin Gun",
   "option_windows_copyright_info": "",
   "option_windows_description_info": "Made with ❤ for Global Game Jam 2022",
   "option_windows_display_cursor": true,

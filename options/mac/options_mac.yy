@@ -1,5 +1,5 @@
 {
-  "option_mac_display_name": "GGJ 2022",
+  "option_mac_display_name": "Ronin Gun",
   "option_mac_app_id": "com.company.game",
   "option_mac_version": "1.0.0.0",
   "option_mac_output_dir": "~/gamemakerstudio2",
