@@ -9,4 +9,7 @@ if (ds_list_find_index(enemiesHit, other) == -1) {
 	}
 	audio_play_sound(sfxRobotSwordHit, 2, false)
 	ds_list_add(enemiesHit, other)
+	
+	if (global.playerHealth < global.maxHealth)
+		global.playerHealth++
 }

@@ -23,8 +23,17 @@ if (!dead) {
 		}
 	}
 	
-	var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
-	hsp = baseVelocity * hDir
+	if (!dash) {
+		vGravity = 1.1
+		var hDir = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+		hsp = baseVelocity * hDir
+	}
+	else {
+		hsp = baseVelocity * image_xscale
+		vGravity = 0
+		vsp = 0
+	}
+	
 
 	x = clamp(x + hsp, 8, room_width - 8)
 }

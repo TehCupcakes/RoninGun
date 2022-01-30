@@ -5,6 +5,7 @@ hsp = 0
 jumpSpeed = 18
 jumping = false
 invincible = false
+dash = false
 
 instance_create_depth(x, y, depth-1, oArms)
 

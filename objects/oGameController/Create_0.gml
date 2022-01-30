@@ -4,3 +4,4 @@ minChance = 0
 maxHealth = 10
 
 global.playerHealth = maxHealth
+global.maxHealth = maxHealth
