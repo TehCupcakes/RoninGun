@@ -1,6 +1,8 @@
 if (dead) {
-	// TODO: Set sprite
-	image_angle = image_angle + 4 % 360
+	if (sprite_index != sFloatingRobotDead) {
+		sprite_index = sFloatingRobotDead
+		image_index = 0
+	}
 } else {
 	var targetX = oPlayer.x
 	var targetY = oPlayer.y - 80
