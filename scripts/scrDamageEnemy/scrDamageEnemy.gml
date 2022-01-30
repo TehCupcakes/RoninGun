@@ -8,6 +8,7 @@ function scrDamageEnemy(enemy, amount, angle, velocity) {
 	
 		if (hp <= 0) {
 			dead = true
+			scrAddKO()
 			
 			if (object_index == oGroundRobot) {
 				image_xscale = (angle >= 90 && angle < 270) ? 1 : -1

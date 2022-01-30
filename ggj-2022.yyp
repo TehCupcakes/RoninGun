@@ -50,6 +50,7 @@
     {"id":{"name":"sFloatingRobotDead","path":"sprites/sFloatingRobotDead/sFloatingRobotDead.yy",},"order":5,},
     {"id":{"name":"oSwordHitbox","path":"objects/oSwordHitbox/oSwordHitbox.yy",},"order":8,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":0,},
+    {"id":{"name":"scrAddKO","path":"scripts/scrAddKO/scrAddKO.yy",},"order":6,},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"order":12,},
     {"id":{"name":"oArms","path":"objects/oArms/oArms.yy",},"order":4,},
     {"id":{"name":"oParallaxControl","path":"objects/oParallaxControl/oParallaxControl.yy",},"order":11,},
@@ -113,7 +114,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"RyujinAttack.ttf","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.1.0.609",
   },
