@@ -15,8 +15,8 @@ function scrDamageEnemy(enemy, amount, angle, velocity) {
 			hsp = lengthdir_x(force, angle)
 			
 			if (ground)
-				vsp = min(lengthdir_y(force, angle), -5)
-			else 
+				vsp = min(lengthdir_y(force, angle), -irandom_range(4, 8))
+			else
 				vsp = lengthdir_y(force, angle)
 		}
 	}

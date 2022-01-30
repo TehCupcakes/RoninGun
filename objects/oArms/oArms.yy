@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Notes/Objects.yy",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oArms",
