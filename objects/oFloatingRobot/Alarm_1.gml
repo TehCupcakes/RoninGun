@@ -1,0 +1,1 @@
+bulletReady = true
