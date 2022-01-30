@@ -19,6 +19,6 @@ function scrDamagePlayer(amount, enemy) {
 		}
 	} else {
 		// Game over!
-		room_restart()
+		room_goto(rGameOver)
 	}
 }

@@ -3,6 +3,7 @@
     {"id":{"name":"oMenuControl","path":"objects/oMenuControl/oMenuControl.yy",},"order":14,},
     {"id":{"name":"oBarrelExplosion","path":"objects/oBarrelExplosion/oBarrelExplosion.yy",},"order":16,},
     {"id":{"name":"sFloatingRobot","path":"sprites/sFloatingRobot/sFloatingRobot.yy",},"order":3,},
+    {"id":{"name":"oGameOverControl","path":"objects/oGameOverControl/oGameOverControl.yy",},"order":17,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":1,},
     {"id":{"name":"sPlatforms","path":"sprites/sPlatforms/sPlatforms.yy",},"order":0,},
     {"id":{"name":"sfxMainMenuMusic","path":"sounds/sfxMainMenuMusic/sfxMainMenuMusic.yy",},"order":13,},
@@ -23,6 +24,8 @@
     {"id":{"name":"scrDamageEnemy","path":"scripts/scrDamageEnemy/scrDamageEnemy.yy",},"order":3,},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":2,},
     {"id":{"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"order":7,},
+    {"id":{"name":"sGameOverBG","path":"sprites/sGameOverBG/sGameOverBG.yy",},"order":36,},
+    {"id":{"name":"sfxGameOverMusic","path":"sounds/sfxGameOverMusic/sfxGameOverMusic.yy",},"order":14,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"sfxRobotWarn","path":"sounds/sfxRobotWarn/sfxRobotWarn.yy",},"order":11,},
     {"id":{"name":"sSlope","path":"sprites/sSlope/sSlope.yy",},"order":5,},
@@ -71,6 +74,7 @@
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"order":12,},
     {"id":{"name":"sfxPlayerFootsteps","path":"sounds/sfxPlayerFootsteps/sfxPlayerFootsteps.yy",},"order":9,},
     {"id":{"name":"oArms","path":"objects/oArms/oArms.yy",},"order":4,},
+    {"id":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},"order":2,},
     {"id":{"name":"sExplosion","path":"sprites/sExplosion/sExplosion.yy",},"order":32,},
     {"id":{"name":"oParallaxControl","path":"objects/oParallaxControl/oParallaxControl.yy",},"order":11,},
     {"id":{"name":"scrSpawnEnemy","path":"scripts/scrSpawnEnemy/scrSpawnEnemy.yy",},"order":0,},
@@ -103,6 +107,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rGame","path":"rooms/rGame/rGame.yy",},},
+    {"roomId":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
