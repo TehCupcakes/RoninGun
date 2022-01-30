@@ -46,6 +46,18 @@ while (abs(xMove) > 0 || abs(yMove) > 0) {
 		y = clamp(y, floorHit.y, floorHit.y+10)
 		instance_destroy()
 	}
+	var barrel = instance_place(x, y, oBarrel)
+	if (barrel != noone) {
+		instance_destroy()
+		with (barrel) {
+			if (triggered) {
+				event_user(0)
+			} else {
+				triggered = true
+				alarm[0] = triggerTime
+			}
+		}
+	}
 }
 
 // Destroy the instance when it is fully off screen
