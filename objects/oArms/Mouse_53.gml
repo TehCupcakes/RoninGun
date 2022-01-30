@@ -1,3 +1,5 @@
+instance_create(swordX, swordY, oSwordHitbox)
+
 if (audio_is_playing(sfxSword)) {
 	audio_stop_sound(sfxSword)
 }

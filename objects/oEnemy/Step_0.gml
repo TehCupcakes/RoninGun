@@ -4,11 +4,7 @@ if (dead) {
 	x += hsp
 	
 	if (ground) {
-		hsp += .4 * -sign(hsp)
-		
-		if (abs(hsp) < .01) {
-			hsp = 0
-		}
+		hsp = max(0, abs(hsp) - 0.4) * sign(hsp)
 	}	
 	
 	if (ground && alarm[0] < 0) {
@@ -16,7 +12,6 @@ if (dead) {
 	}
 }
 else {
-	
 	if (ground) {
 		hsp += sign(oPlayer.x - x) * moveRate
 	}

@@ -38,3 +38,10 @@ if (image_angle >= 90 && image_angle < 270) {
 } else {
 	image_xscale = 1
 }
+
+with (oSwordHitbox) {
+	x = other.swordX + other.swordOffsetX * other.image_xscale
+	y = other.swordY
+	image_xscale = other.image_xscale
+	image_angle = other.image_angle + 180 * other.image_xscale
+}
