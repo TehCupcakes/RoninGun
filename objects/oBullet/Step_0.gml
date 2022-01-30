@@ -1,6 +1,10 @@
 var xMove = lengthdir_x(moveSpeed, moveDir)
 var yMove = lengthdir_y(moveSpeed, moveDir)
 
+if (!ds_exists(enemiesHit, ds_type_list)) {
+	enemiesHit = ds_list_create()
+}
+
 while (abs(xMove) > 0 || abs(yMove) > 0) {
 	var adjustX = min(1, abs(xMove)) * sign(xMove)
 	var adjustY = min(1, abs(yMove)) * sign(yMove)
