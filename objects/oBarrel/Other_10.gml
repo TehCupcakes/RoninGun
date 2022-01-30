@@ -13,3 +13,5 @@ repeat(explosionCount) {
 	yPlace = lengthdir_y(randDist, randDir)
 	instance_create_depth(x + xPlace, y-sprite_get_height(sprite_index)/2 + yPlace, depth-1, oBarrelExplosion)
 }
+
+audio_play_sound(sfxExplosion, 10, false)

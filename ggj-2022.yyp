@@ -54,6 +54,7 @@
     {"id":{"name":"sEnemyStill","path":"sprites/sEnemyStill/sEnemyStill.yy",},"order":2,},
     {"id":{"name":"sEnemyRun","path":"sprites/sEnemyRun/sEnemyRun.yy",},"order":1,},
     {"id":{"name":"sPlayerLand","path":"sprites/sPlayerLand/sPlayerLand.yy",},"order":3,},
+    {"id":{"name":"sfxExplosion","path":"sounds/sfxExplosion/sfxExplosion.yy",},"order":14,},
     {"id":{"name":"sfxSword","path":"sounds/sfxSword/sfxSword.yy",},"order":1,},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":14,},
     {"id":{"name":"tilesetPlatforms","path":"tilesets/tilesetPlatforms/tilesetPlatforms.yy",},"order":0,},

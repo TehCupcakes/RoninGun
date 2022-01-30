@@ -8,17 +8,17 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "music",
-    "path": "audiogroups/music",
+    "name": "sfx",
+    "path": "audiogroups/sfx",
   },
-  "soundFile": "sfxMainMenuMusic.wav",
-  "duration": 126.3158,
+  "soundFile": "sfxExplosion.wav",
+  "duration": 0.518707,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfxMainMenuMusic",
+  "name": "sfxExplosion",
   "tags": [],
   "resourceType": "GMSound",
 }
