@@ -1,2 +1,4 @@
-near_buildings = layer_get_id("buildings_back_1")
-far_buildings = layer_get_id("buildings_back_2")
+near_buildings = layer_get_id("buildings_near")
+far_buildings = layer_get_id("buildings_far")
+distant_buildings = layer_get_id("buildings_distant")
+
