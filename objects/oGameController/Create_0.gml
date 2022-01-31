@@ -13,4 +13,4 @@ drawHealthScale = 4
 window_set_cursor(cr_none)
 
 audio_stop_all()
-audio_play_sound(sfxInGameMusic, 10000, true)
+audio_play_sound(musicInGame, 10000, true)

@@ -1,6 +1,6 @@
 if (keyboard_check_pressed(vk_enter)) {
 	room_goto(rGame)
-	audio_stop_sound(sfxMainMenuMusic)
+	audio_stop_sound(musicMainMenu)
 }
 
 if (keyboard_check_pressed(ord("M"))) {

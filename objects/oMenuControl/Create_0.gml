@@ -5,4 +5,4 @@ textBlink = false
 alarm[0] = 30
 
 audio_stop_all()
-audio_play_sound(sfxMainMenuMusic, 10000, true)
+audio_play_sound(musicMainMenu, 10000, true)

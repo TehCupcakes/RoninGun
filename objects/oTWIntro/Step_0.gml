@@ -8,7 +8,7 @@ if cs==0
 		{
 			ph+=1
 			a=a1
-			audio_play_sound(sfxTWGFlute,10000, false)
+			audio_play_sound(musicTWGFlute,10000, false)
 		}
 	}
 	else if ph==1

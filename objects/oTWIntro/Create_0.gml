@@ -1,5 +1,3 @@
-audio_play_sound(sfxTWGFlute, 10000, true)
-
 targetRoom = rMenu
 
 a0=120
@@ -18,3 +16,6 @@ fade0.fadeTarget=0
 fade0.fadeRate=.01
 fade0.color=c_black
 fade0.fade=1
+
+image_xscale = 2
+image_yscale = 2
