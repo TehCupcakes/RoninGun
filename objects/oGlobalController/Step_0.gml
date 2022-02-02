@@ -5,4 +5,5 @@ if (room == rTWIntro && audio_group_is_loaded(music) && !instance_exists(oTWIntr
 
 if (keyboard_check(vk_alt) && keyboard_check_pressed(vk_enter) || (keyboard_check(vk_enter) && keyboard_check_pressed(vk_alt))) {
 	window_set_fullscreen(!window_get_fullscreen())
+	save_config()
 }
