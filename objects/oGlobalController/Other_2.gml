@@ -9,7 +9,12 @@ global.musicVolume = 0.5
 scrSetSfxVolume(global.sfxVolume)
 scrSetMusicVolume(global.musicVolume)
 
-global.font = font_add("RyujinAttack.ttf", 64, false, false, 32, 128)
-global.menuFont = font_add("KarmaticArcade.ttf", 31, false, false, 32, 128)
+if (IS_HTML5) {
+	global.font = font_add_sprite(sScoreFont, ord("0"), true, 2) // Sprite that matches RyujinAttack font for numbers, albeit with some different spacing
+	global.menuFont = fntMenu_HTML5 // Only used for Game Over screen score display
+} else {
+	global.font = font_add("RyujinAttack.ttf", 64, false, false, 32, 128)
+	global.menuFont = font_add("KarmaticArcade.ttf", 31, false, false, 32, 128)
+}
 
 load_config()

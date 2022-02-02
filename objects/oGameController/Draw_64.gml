@@ -8,4 +8,4 @@ for (var i = 0; i < maxHealth; i++) {
 }
 
 draw_set_halign(fa_right)
-draw_text(display_get_gui_width() - 12, -4, global.score)
+draw_text(display_get_gui_width() - 12, IS_HTML5 ? 12 : -4, global.score)

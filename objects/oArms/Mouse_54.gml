@@ -8,7 +8,7 @@ bullet.moveDir = aimAngle
 if (audio_is_playing(sfxPistol)) {
 	audio_stop_sound(sfxPistol)
 }
-audio_play_sound_at(sfxPistol, bulletX, bulletY, depth, 0, 0, 1, false, 1)
+audio_play_sound(sfxPistol, 1, false)
 
 lastWeapon = Weapon.GUN
 gunSubimage = 0

@@ -7,7 +7,7 @@ function scrDamagePlayer(amount, enemy) {
 	global.combo = 0
 	
 	if (global.playerHealth > 0) {
-		audio_play_sound_at(sfxPlayerHurt, oPlayer.x, oPlayer.y, oPlayer.depth, 0, 0, 0, false, 100)
+		audio_play_sound(sfxPlayerHurt, 100, false)
 	
 		with (oPlayer) {
 			invincible = true
