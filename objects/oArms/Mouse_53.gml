@@ -1,4 +1,6 @@
-if (!oPlayer.cant_use_sword) {
+if (keyboard_check(vk_shift)) {
+	event_user(0)
+} else if (!oPlayer.cant_use_sword) {
 	instance_create(swordX, swordY, oSwordHitbox)
 
 	if (audio_is_playing(sfxSword)) {
